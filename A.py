@@ -1,6 +1,6 @@
 #*-coding:utf-8-*
 import os, sys, re, time, json, requests, random, datetime
-from concurrent.futures import ThreadPoolExecutor
+from multiprocessing.pool import ThreadPool
 from requests.exceptions import ConnectionError
 from bs4 import BeautifulSoup as parser
 from time import sleep
